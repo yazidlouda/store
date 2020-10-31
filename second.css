@@ -1,0 +1,64 @@
+
+  
+ section#sidebar {
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: rgb(213, 226, 230);
+    margin: 0.1em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    }
+    .pagination {
+        display: inline-block;
+        text-align: center;
+      }
+      
+      .pagination a {
+        color: rgb(233, 36, 36);
+        float: center;
+        padding: 1rem;
+        text-decoration: none;
+      }
+     
+      
+      
+      .pagination a:hover:not(.active) {background-color: #666;}
+     
+     
+    #search{
+        border-radius: 25px;
+        width: 30%;
+        display: inline-block;
+        margin-top:10px;
+    }
+     
+    footer {
+        background-color: #857e7e;
+        padding:auto;
+        font-size: 1em;
+        display: inline-block;
+        margin:auto;
+      }
+      #search{
+          border-radius: 25px;
+          width: 30%;
+          display: inline-block;
+          margin:15px;
+      }
+      .fa {
+        padding: 0px;
+        font-size: 15px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;}
+        footer div{
+            display: inline-block;
+            position: relative;
+        }
+        footer div.container-fluid{
+            text-align: left;
+        }
+        footer div.containe{
+            text-align: left;
+        }
