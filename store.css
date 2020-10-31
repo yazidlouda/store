@@ -1,0 +1,56 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    
+  }
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+
+}
+img {
+  float: center;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+}
+footer {
+    background-color: #857e7e;
+    padding:auto;
+    font-size: 1em;
+    display: inline-block;
+    margin:auto;
+  }
+  #search{
+      border-radius: 25px;
+      width: 30%;
+      display: inline-block;
+      margin:15px;
+  }
+  .fa {
+    padding: 0px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;}
+    footer div{
+        display: inline-block;
+        position: relative;
+    }
+    footer div.container-fluid{
+        text-align: left;
+    }
+    footer div.containe{
+        text-align: left;
+    }
+    
+ 
